@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 class="dojonary">Dojonary</h1>
+        <input class="sbar" type="text" placeholder="Search..">
+        <button class="login" onclick="turnOff(this)">Log in</button>
+    </div>
+    <div class="container">
+        <div class="leftside">
+            <div class="leftside1">
+                <div class="topcard">
+                    <h1 class="ninja">ninja</h1>
+                    <p class="noun">noun</p>
+                    <p class="plural">Plural: ninjas</p>
+                    <button id="topbutton" class="likes" onclick="alert('Ninja was liked')" >13 likes</button>
+                </div>
+                <p class="definition1">A practitioner skilled in the <a
+                        href="https://en.wikipedia.org/wiki/Japan">Japanese</a> art of <a
+                        href="https://naruto.fandom.com/wiki/Ninjutsu#:~:text=Ninjutsu%20(%E5%BF%8D%E8%A1%93%2C%20English%20TV%3A,the%20three%20main%20jutsu%20categories.&text=Most%20ninjutsu%20use%20shape%20transformation,changing%20the%20ninjutsu's%20physical%20properties.">ninjutsu</a>
+                </p>
+            </div>
+            <div class="leftside2">
+            <div class="botcard">
+                <h1 class="ninja">ninja</h1>
+                    <p class="noun">noun</p>
+                    <p class="plural">Plural: ninjas</p>
+                    <button id="bottombutton" class="likes" onclick="alert('Ninja was liked')" >37 likes</button>
+                </div>
+                <p class="definition1"> A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus
+                </p>
+            </div>
+        </div>
+    <div class="rightside">
+        <div class="rightcard">
+            <h1 class="youdojonary">Dojonary is defined by YOU</h1>
+            <button class="adddef" onclick="hide(this)">Add Definition</button>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="button.js"></script>
+</html>
